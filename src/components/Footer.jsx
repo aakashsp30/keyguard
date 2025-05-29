@@ -17,7 +17,7 @@ const Footer = () => {
       {/* Disclaimer */}
       <p className="text-xs text-gray-400 text-center mt-3 max-w-md">
         ⚠️ This app is for educational purposes only. Do not store real or sensitive passwords.
-        All data is stored in your browser's localStorage and is not encrypted.
+        All data is stored in plain text in the database and is not encrypted.
       </p>
     </div>
   )
